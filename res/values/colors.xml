@@ -1,0 +1,21 @@
+<resources>
+        <color name="white">#ffffffff</color>
+        <color name="black">#ff000000</color>
+        <color name="bluish">#428bca</color>
+        <color name="darkblue">#3276b1</color>
+        <color name="blackish">#444444</color>
+        <color name="orange">#FC9A24</color>
+        <color name="greenish">#4A7358</color>
+        <color name="brownish">#F1DEB1</color>
+        <color name="red">#F20E0E</color>
+        <color name="lightbrownish">#CEB494</color>
+        <color name="whitish">#D6C2C2</color> 
+        <color name="reddish">#D14F4F</color>
+        <color name="favourite">#C1C6CC</color> 
+        
+    	<color name="feed_bg">#C1C6CC</color>
+    	<color name="feed_item_bg">#CDD3D3</color>
+    	<color name="feed_item_border">#D6C2C2</color>
+   		<color name="link">#0a80d1</color>
+    	<color name="timestamp">#a0a3a7</color> 
+</resources>

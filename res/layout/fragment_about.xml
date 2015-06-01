@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#35343d" >
+    
+    <!-- Header  Starts -->
+
+      <LinearLayout
+          android:id="@+id/header"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@layout/header_gradient"
+          android:paddingBottom="5dip"
+          android:paddingTop="5dip" >
+
+          <!-- Logo Start -->
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dip"
+              android:src="@drawable/logo" />
+          <!-- Logo Ends -->
+      </LinearLayout>
+      <!-- Header Ends -->
+      <!-- Footer Start -->
+      <!-- Footer Ends -->
+    
+   		<ScrollView
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="fill_parent"
+   		    android:layout_below="@+id/header"
+   		    android:fillViewport="true" >
+
+      <!-- Login Form -->
+
+      <LinearLayout
+          android:id="@+id/linearLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="10dip" >
+
+          <TextView
+              android:id="@+id/aboutYoushareHead"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:text="Get Familiar With YouShare"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#C1C6CC"
+              android:textStyle="bold"
+              android:typeface="sans" />
+
+          <TextView
+              android:id="@+id/htmlText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:gravity="start"
+              android:text="Here"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#C1C6CC"
+              android:textStyle="normal"
+              android:typeface="sans" />
+
+          </LinearLayout>
+          </ScrollView>
+    
+
+</RelativeLayout>

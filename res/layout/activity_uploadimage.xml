@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context=".UploadImageActivity"
+    android:background="#35343d" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- Capture picture button -->
+
+    <Button
+        android:id="@+id/setPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Set Picture"
+        android:textColor="#9080DD" />
+    
+    <Button
+        android:id="@+id/uploadPic"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Upload"
+        android:textColor="#9080DD" />
+
+    <Button
+        android:id="@+id/backtoPostpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Home"
+        android:textColor="#9080DD" />
+    
+    </LinearLayout>
+    
+
+<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+<TextView
+    android:id="@+id/result"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:textColor="#D14F4F"
+    android:textStyle="italic"
+    android:typeface="sans" />
+
+<ImageView
+    android:id="@+id/viewImage"
+    android:contentDescription="image to upload"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="18dp"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center_horizontal"
+    />
+</LinearLayout>
+</LinearLayout>
