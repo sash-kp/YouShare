@@ -1,2 +1,2 @@
 # YouShare
-YouShare Android App
+YouShare Android App enables you to share your ideas/knowledge by making posts. After logging in to YouShare, You can make your own posts which are visible to all the registered members of YouShare. These posts are not random. You will have an option to select an appropriate category before making your posts. For example "Movies" category. A post made by you for "Movies" category will be visible to all other registered members in "Movies" category zone. A post of "Just Fun" category will be visible in "Just Fun" category zone. You can post links, texts and upload images in your posts.
